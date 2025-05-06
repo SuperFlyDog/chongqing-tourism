@@ -1,0 +1,23 @@
+{
+	"name": "default",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"serve": "SET NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
+		"build": "SET NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build"
+	},
+	"dependencies": {
+		"@amap/amap-jsapi-loader": "^1.0.1",
+		"axios": "^1.6.5",
+		"core-js": "^2.6.5",
+		"element-ui": "^2.15.14",
+		"vue": "^2.7.16",
+		"vue-amap": "^0.5.10"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "^3.8.0",
+		"@vue/cli-service": "^3.8.0",
+		"babel-plugin-component": "^1.1.1",
+		"vue-template-compiler": "^2.7.16"
+	}
+}
