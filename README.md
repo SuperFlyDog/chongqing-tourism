@@ -3,7 +3,9 @@
 
 ## 🐜 ACO-SA Route Optimization Web App
 
-This project implements a hybrid route optimization system based on **Ant Colony Optimization (ACO)** and **Simulated Annealing (SA)** for solving the **Traveling Salesman Problem (TSP)**. The backend is built with Flask and the frontend uses Vue.js for an interactive route planning interface.
+This project implements a hybrid route optimization system using **Ant Colony Optimization (ACO)** and **Simulated Annealing (SA)** to solve the **Traveling Salesman Problem (TSP)**. It can find the shortest path that visits multiple locations and displays the optimized route on a web interface. The backend is built with **Flask**, and the frontend is developed using **Vue.js** for interactive visualization.
+
+
 
 ---
 
@@ -112,10 +114,12 @@ npm run serve
 
 Running `solve_tsp.py` generates side-by-side plots of ACO and final optimized routes:
 
-<p align="center">
-  <img src="https://your-image-link.com/aco_result.png" width="300"/>
-  <img src="https://your-image-link.com/sa_result.png" width="300"/>
-</p>
+<img width="448" alt="image" src="https://github.com/user-attachments/assets/43816b93-8e65-4706-badd-0e600fb9080e" />
+
+Route display on the web page：
+
+<img width="464" alt="image" src="https://github.com/user-attachments/assets/df0acd76-696e-47c1-b55f-433d4ad0f5b6" />
+
 
 ---
 
